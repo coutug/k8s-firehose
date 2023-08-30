@@ -307,7 +307,7 @@ kubectl taint nodes --all node-role.kubernetes.io/control-plane-
        --components-extra=image-reflector-controller,image-automation-controller \
        --owner=$GITHUB_USER \
        --repository=k8s-firehose \
-       --branch=main \
+       --branch=k3s \
        --path=clusters/k8s-firehose \
        --personal \
        --read-write-key
